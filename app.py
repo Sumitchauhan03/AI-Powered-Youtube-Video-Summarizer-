@@ -42,7 +42,7 @@ def generate_gemini_content(transcript_text,prompt):
 
 
 # Step 7: Build Streamlit Application
-st.title("YouTube Transcript to Detailed Notes Converter")
+st.title("Gemini YouTube Video Summarizer")
 youtube_link = st.text_input("Enter YouTube Video Link:")
 
 if youtube_link:
@@ -50,10 +50,10 @@ if youtube_link:
     print(video_id)
     st.image(f"http://img.youtube.com/vi/{video_id}/0.jpg", use_column_width=True)
 
-if st.button("Get Detailed Notes"):
+if st.button("Get Video Summary"):
     transcript_text=extract_transcript_details(youtube_link)
 
     if transcript_text:
         summary=generate_gemini_content(transcript_text,prompt)
-        st.markdown("## Detailed Notes:")
+        st.markdown("## Video Summary:")
         st.write(summary)
