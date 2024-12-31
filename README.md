@@ -1,8 +1,5 @@
 **The App is available at:** https://gemini-youtube-video-summarizer.streamlit.app/
 
-
-https://github.com/HussainNasirKhan/Gemini-YouTube-Video-Summarizer/assets/60567438/2727adc1-e867-4c07-b1e8-4667bd00085f
-
 # Gemini-YouTube-Video-Summarizer
 GeminiSummarizer: Transform YouTube videos with precise and concise summaries, and an intuitive Streamlit frontend. Powered by Google Gemini Pro, it's the ultimate tool for content creators and viewers alike. Elevate your video experience effortlessly. 🚀
 
