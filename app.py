@@ -1,4 +1,3 @@
-# Step 1: Import Required Libraries
 import streamlit as st
 import os
 import google.generativeai as genai
@@ -54,7 +53,9 @@ def generate_gemini_content(transcript_text, prompt):
         return None
 
 # Step 8: Build Streamlit Application
-st.title("Gemini YouTube Video Summarizer")
+st.title("📺 Gemini YouTube Video Summarizer")
+st.image("youtube_logo.png", width=50)  # Adding YouTube logo
+
 youtube_link = st.text_input("Enter YouTube Video Link:")
 
 if youtube_link:
