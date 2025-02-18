@@ -12,3 +12,7 @@ Key Features:
 🌈 User-Friendly Interface: Streamlit ensures a user-friendly experience, making it easy for both content creators and viewers to interact with the application and make the most out of video content.
 
 Whether you're a content creator looking to repurpose your videos or a viewer seeking quick insights, our YouTube Video Transcribe Summarizer LLM App with Google Gemini Pro and Streamlit is the ultimate solution. Join us at the forefront of language technology and revolutionize the way you interact with video content! 💬🚀
+
+
+
+## Live website link - https://yt-videosummarizer-sumit.streamlit.app/
